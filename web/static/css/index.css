@@ -1,0 +1,141 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+*{
+    box-sizing: border-box;
+}
+.container{
+    display: block;
+    width: 1200px;
+    margin: 0 auto;
+}
+#top-header{
+    position: relative;
+    width: 100%;
+    height: 120px;
+    background-color: #3dfff5;
+}
+#title{
+    position: relative;
+    padding: 0;
+    height: 60px;
+}
+.line-left{
+    position: absolute;
+    width: 560px;
+    top: 30px;
+    border-top: 1px solid #bebebe;
+}
+.line-right{
+    position: absolute;
+    width:560px;
+    top: 30px;
+    right: 0;
+    border-top: 1px solid #bebebe;
+}
+.txt{
+    text-align: center;
+    font-size: 40px;
+    color: black;
+}
+#login-box{
+    padding: 0;
+}
+#code{
+    position: relative;
+    float: left;
+    width: 600px;
+    height: 500px;
+    border-right: 1px solid silver;
+}
+.icon-weixin1{
+    position: absolute;
+    top: 80px;
+    left: 220px;
+    color: #12ff73;
+}
+.wechat{
+    position: absolute;
+    top: 140px;
+    left: 160px;
+}
+#login{
+    position: relative;
+    float: left;
+    width: 600px;
+    height: 500px;
+}
+.form-group-1{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    width: 500px;
+}
+#userInfo{
+    display: inline-block;
+    position: absolute;
+    top: 30px;
+    font-size: 15px;
+    left: 510px;
+    width: 100px;
+    height: 20px;
+}
+#passInfo{
+    display: inline-block;
+    position: absolute;
+    top: 35px;
+    font-size: 15px;
+    left: 510px;
+    width: 100px;
+    height: 20px;
+}
+.form-group-2{
+    position: absolute;
+    top: 110px;
+    left: 20px;
+    width: 500px;
+}
+.checkbox{
+    position: absolute;
+    top: 180px;
+    left: 50px;
+}
+#login-button{
+    position: absolute;
+    top: 250px;
+    left: 20px;
+    width: 200px;
+}
+#reg-button{
+    position: absolute;
+    top: 250px;
+    left: 320px;
+    width: 200px;
+}
+.icon-kaixin2{
+    position: absolute;
+    top: 350px;
+    left: 30px;
+    width: 200px;
+}
+#agreement{
+    padding: 0;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+}
+#footer{
+    position: relative;
+    background-color: #fafafa;
+    height: 100px;
+}
+#footer-txt{
+    position: absolute;
+    width: 1200px;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    text-align: center;
+}

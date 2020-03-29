@@ -1,0 +1,68 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+*{
+    box-sizing: border-box;
+}
+.container-reg{
+    display: block;
+    width: 1200px;
+    margin: 0 auto;
+}
+#top-header{
+    position: relative;
+    width: 100%;
+    height: 120px;
+    background-color: #3dfff5;
+}
+#title{
+    position: relative;
+    padding: 0;
+    height: 60px;
+}
+.line-left{
+    position: absolute;
+    width: 560px;
+    top: 30px;
+    border-top: 1px solid #bebebe;
+}
+.line-right{
+    position: absolute;
+    width:560px;
+    top: 30px;
+    right: 0;
+    border-top: 1px solid #bebebe;
+}
+.txt{
+    text-align: center;
+    font-size: 40px;
+    color: black;
+}
+#reg-box{
+    position: relative;
+}
+.reg-username{
+    position: absolute;
+    top: 20px;
+    left: 300px;
+    width: 600px;
+}
+.reg-password{
+    position: absolute;
+    top: 140px;
+    left: 300px;
+    width: 600px;
+}
+.repassword{
+    position: absolute;
+    top:275px;
+    left: 300px;
+    width: 600px;
+}
+.reg-btn{
+    position: absolute;
+    top: 360px;
+    left: 550px;
+    width: 120px;
+}
