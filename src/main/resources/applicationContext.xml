@@ -13,7 +13,7 @@
        http://www.springframework.org/schema/tx
        http://www.springframework.org/schema/tx/spring-tx.xsd
        ">
-<!--Spring的配置文件  配置和业务逻辑有关的-->
+    <!--Spring的配置文件  配置和业务逻辑有关的-->
 
     <!--1.关联数据库配置文件-->
     <context:property-placeholder location="classpath:database.properties"/>
@@ -74,6 +74,5 @@
             <tx:method name="get*" read-only="true"></tx:method>
         </tx:attributes>
     </tx:advice>
-    
 
 </beans>

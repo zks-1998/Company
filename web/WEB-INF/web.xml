@@ -5,7 +5,7 @@
          http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
          version="4.0">
 
-   <!--1.启动Spring的容器 启动即加载该配置文件-->
+    <!--1.启动Spring的容器 启动即加载该配置文件-->
     <context-param>
         <param-name>contextConfigLocation</param-name>
         <param-value>classpath:applicationContext.xml</param-value>
@@ -13,7 +13,7 @@
     <listener>
         <listener-class>org.springframework.web.context.ContextLoaderListener</listener-class>
     </listener>
-<!--    2.Spring MVC的前端控制器-->
+    <!--2.Spring MVC的前端控制器-->
     <servlet>
         <servlet-name>dispatchServlet</servlet-name>
         <servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>
@@ -23,7 +23,7 @@
         <servlet-name>dispatchServlet</servlet-name>
         <url-pattern>/</url-pattern>
     </servlet-mapping>
-<!--    3.字符编码过滤器 放在所有过滤器之前-->
+    <!--3.字符编码过滤器 放在所有过滤器之前-->
     <filter>
         <filter-name>characterEncodingFilter</filter-name>
         <filter-class>org.springframework.web.filter.CharacterEncodingFilter</filter-class>
@@ -31,12 +31,12 @@
             <param-name>encoding</param-name>
             <param-value>utf-8</param-value>
         </init-param>
-    </filter>H
+    </filter>
     <filter-mapping>
         <filter-name>characterEncodingFilter</filter-name>
         <url-pattern>/*</url-pattern>
     </filter-mapping>
-<!--    4.使用Rest风格的URI-->
+    <!--4.使用Rest风格的URI-->
     <filter>
         <!--将页面提交时的普通的post请求改为指定的PUT或DELETE请求-->
         <filter-name>hiddenHttpMethodFilter</filter-name>

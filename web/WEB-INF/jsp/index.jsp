@@ -34,12 +34,6 @@
                 <input type="password" class="form-control" id="password" name="password" placeholder="请输入你的密码" onblur="b()">
                 <span id="passInfo"></span>
             </div>
-            <div class="checkbox">
-                <input type="checkbox" class="check"> 记住密码
-                <span style="color: #cccccc">不是自己的私有设备谨慎勾选</span>
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                <a href="#">忘记密码?</a>
-            </div>
             <button id="login-button" type="submit" class="btn btn-success">登录</button>
             <button id="reg-button" type="button" class="btn btn-info" onclick="window.open('/goreg')">注册</button>
             <i class="iconfont icon-kaixin2" style="font-size: 65px;color: #ff8965"></i>

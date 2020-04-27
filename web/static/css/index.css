@@ -96,11 +96,6 @@ body{
     left: 20px;
     width: 500px;
 }
-.checkbox{
-    position: absolute;
-    top: 180px;
-    left: 50px;
-}
 #login-button{
     position: absolute;
     top: 250px;
